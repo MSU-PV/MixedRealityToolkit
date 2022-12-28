@@ -88,8 +88,8 @@ namespace Evergine.MRTK.Demo.UWP.MixedReality
         /// <summary>
         /// Terminate events do not cause Uninitialize to be called. It will be called if your IFrameworkView
         /// class is torn down while the app is in the foreground.
-        // This method is not often used, but IFrameworkView requires it and it will be called for
-        // holographic apps.
+        /// This method is not often used, but IFrameworkView requires it and it will be called for
+        /// holographic apps.
         /// </summary>
         public void Uninitialize()
         {
